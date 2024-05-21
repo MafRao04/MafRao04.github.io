@@ -37,14 +37,14 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Muhammad Abdullah Faheem</a></h1>
+      <h1 class="logo"><a href="index.html">Back to Home</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="#critical-analysis">Critical Analysis</a></li>
-          <li><a class="nav-link scrollto" href="#technical-skills">Tech Skills</a></li>
+          <li><a class="nav-link scrollto" href="#technical-skills">Technical and Transferable Skills</a></li>
           <li><a class="nav-link scrollto" href="#ethical-conduct">Ethical Conduct</a></li>
           <li><a class="nav-link scrollto" href="#holistic-experience">Holistic Experience</a></li>
         </ul>
@@ -76,9 +76,9 @@
     <!-- ======= Critical Analysis Section ======= -->
     <section id="critical-analysis" class="portfolio-details box-shadow">
       <div class="container">
-        <h2>Critical Analysis</h2>
+        <h2>Critical Analysis of WIL placement</h2>
         <div style="text-align: justify;">
-          <h3>Introduction”:</h3>
+          <h3>Introduction:</h3>
           <p>
             During my Work Integrated Learning (WIL) placement at Solis Security, a leading cybersecurity firm, I was assigned a comprehensive project focusing on the Automatic Data Quality Improvement. This project was aimed at enhancing data quality for the training of advanced language models, specifically improving the detection of Personally Identifiable Information (PII) and reducing data redundancy. This critical reflection will dissect my actions, learnings, and areas for improvement during this placement using the DIEP framework to structure the analysis: Describe, Interpret, Evaluate, and Plan.
           </p>
@@ -125,12 +125,103 @@
     <!-- ======= Technical Skills Section ======= -->
     <section id="technical-skills" class="portfolio-details box-shadow">
       <div class="container">
-        <h2>Tech Skills</h2>
-        <p>
-          This section highlights the technical and transferable skills demonstrated and developed during the WIL placement, including data analytics, programming, and project management skills.
-        </p>
+        <h2>Technical and Transferable Skills Reflection</h2>
+        <div style="text-align: justify;">
+          <h3>Context:</h3>
+          <p>
+            During my placement at Solis Security, a prominent cybersecurity firm, I was entrusted with a critical role in the "Automatic Data Quality Improvement" project. This initiative aimed to enhance the quality of datasets used in training advanced machine learning models for cybersecurity applications, specifically focusing on the detection of Personally Identifiable Information (PII) and minimizing redundancy in data. This project was pivotal for Solis Security as it directly impacted the efficiency and reliability of their cybersecurity measures. My involvement in this project provided a rich learning environment where I could apply and further develop my technical and transferable skills, aligning closely with my career aspirations in Data Analytics and Machine Learning.
+          </p>
+    
+          <h3>Action:</h3>
+          <p>
+            Throughout the placement, I engaged in various activities that significantly contributed to my skillset. One of the primary technical skills I developed was in anomaly detection. Initially, I conducted thorough research on different anomaly detection methods, assessing their suitability for high-density data clusters. This research phase was critical as it laid the groundwork for implementing the Local Outlier Factor (LOF) model, a sophisticated anomaly detection technique.
+          </p>
+          <p>
+            Implementing the LOF model involved several stages. First, I had to pre-process the data to ensure it was clean and ready for analysis. This included handling missing values, normalizing data ranges, and removing irrelevant features. I utilized Python libraries such as Pandas and NumPy extensively for these tasks. The pre-processing phase was crucial as it directly affected the accuracy of the anomaly detection model. The graph below represents how the data was represented before and after applying the LOF model.
+          </p>
+          <p>
+            <img src="assets/img/before_after_LOF.png" alt="Data Before and After LOF" style="width:100%;">
+          </p>
+          <p>
+            Once the data was prepared, I proceeded with the implementation of the LOF model. This involved tuning multiple hyperparameters, including the number of neighbours (n_neighbors) and the contamination factor, which determines the proportion of outliers in the dataset. Hyperparameter tuning was performed using cross-validation techniques to ensure the model's robustness and reliability. The choice of these parameters was guided by iterative testing and validation against labelled datasets, ensuring the model's performance was optimized for the specific types of anomalies encountered in our data. The image below refers to a Heat Map of grid search strategy for hyperparameter tuning.
+          </p>
+          <p>
+            <img src="assets/img/hyperparameter.png" alt="Heat Map of Grid Search Strategy" style="width:100%;">
+          </p>
+          <p>
+            Another significant aspect of my role was the development of data visualization tools to aid in data quality assessment and anomaly detection. Using libraries such as Matplotlib and Seaborn, I created detailed visualizations that highlighted key data patterns and anomalies. These visualizations were crucial for both internal analysis and communicating findings to stakeholders. They provided clear, interpretable insights that facilitated better decision-making processes within the team.
+          </p>
+          <p>
+            Beyond technical skills, the placement at Solis Security allowed me to hone several transferable skills. Effective communication was paramount, particularly when coordinating with team members and presenting complex findings to stakeholders. Regular updates were provided through detailed reports, which required the ability to articulate technical information in a clear and concise manner. This skill is essential in any collaborative work environment, ensuring that all team members and stakeholders are aligned and informed about project progress and challenges.
+          </p>
+    
+          <h3>Result:</h3>
+          <p>
+            The outcomes of my contributions were considerable and impactful. The implementation of the LOF anomaly detection model significantly improved the accuracy and efficiency of our data quality assessments. The model reduced data redundancy significantly, which enhanced the quality of datasets used for training our machine learning models. This reduction in redundancy not only improved model performance but also streamlined data processing workflows, resulting in faster and more reliable cybersecurity analyses.
+          </p>
+          <p>
+            The comprehensive dataset management practices I established ensured that the data used for machine learning training was of the highest quality. By maintaining well-organized and balanced datasets, we were able to train models that were more robust and accurate in detecting PII. This had a direct positive impact on Solis Security's ability to protect sensitive information and prevent cyber-attacks.
+          </p>
+          <p>
+            The data visualization tools I developed played a critical role in our analytical processes. They allowed us to quickly identify and address data quality issues, facilitating more informed decision-making. These visual tools also proved valuable in stakeholder communications, providing clear and convincing evidence of the project's progress and success.
+          </p>
+    
+          <h3>Learning:</h3>
+          <p>
+            This placement reinforced the importance of continuous learning and adaptability in the rapidly evolving field of data analytics and cybersecurity. The hands-on experience with advanced anomaly detection techniques and data management practices provided me with a deeper understanding of these critical areas. I learned the value of thorough research and iterative testing in developing robust analytical models. The experience also highlighted the importance of clear and effective communication in driving project success and stakeholder engagement.
+          </p>
+          <p>
+            Moving forward, I am committed to further developing my skills in advanced machine learning techniques and data visualization. I plan to stay current with the latest advancements in these fields by engaging in ongoing education and professional development opportunities. Additionally, I aim to continue refining my communication skills, as the ability to convey complex technical information to diverse audiences is essential for success in any data-driven role.
+          </p>
+          <p>
+            In conclusion, my placement at Solis Security was a transformative experience that significantly enhanced my technical and transferable skills. The knowledge and insights gained during this period have equipped me with the tools and confidence to pursue a successful career in data analytics. The skills I developed and the achievements realized during this placement are a testament to the value of hands-on, real-world experience in professional growth and development.
+          </p>
+    
+          <h2>Additional Artefact: Reflection on Continuous Learning and Skill Development</h2>
+          <h3>Context:</h3>
+          <p>
+            Throughout my academic and professional journey, continuous learning and skill development have been central themes. My educational background in Electronic Engineering and subsequent Master's in Information Technology have provided a strong foundation in technical knowledge and analytical skills. My various roles, from Net Metering Officer to Machine Learning Intern, have allowed me to apply and expand these skills in diverse contexts. This reflection will focus on how my experiences, particularly during my undergraduate and postgraduate studies, have shaped my approach to continuous learning and skill development and how these experiences will impact my future career.
+          </p>
+    
+          <h3>Action:</h3>
+          <p>
+            During my undergraduate studies at Mehran University of Engineering & Technology, I led a team to develop a non-invasive embedded system for monitoring faults in 3-phase industrial induction motors. This project required deep technical knowledge in electronics and practical skills in Python programming and deep learning algorithms such as CNN, MLP, and LSTM. The successful completion of this project, along with the publication of our findings, was a significant milestone in my academic career. It taught me the importance of rigorous research, systematic experimentation, and the application of theoretical knowledge to solve real-world problems.
+          </p>
+          <p>
+            <img src="assets/img/muet.png" alt="Bachelor's Final Year Project" style="width:100%;">
+          </p>
+          <p>
+            As I transitioned to my Master's program at Griffith University, I continued to build on these skills while embracing new areas such as data analytics and machine learning. One notable project during my postgraduate studies involved analysing real-time data from Twitter, YouTube, and Spotify using R and various APIs. This project enhanced my data acquisition, pre-processing, and network analysis skills, and introduced me to powerful visualization tools like Gephi and Tableau. Achieving over 95% in this project was a testament to my growing proficiency in handling complex datasets and extracting meaningful insights from them.
+          </p>
+          <p>
+            <img src="assets/img/griffith_project.png" alt="Big Data & Social Media Project" style="width:100%;">
+          </p>
+          <p>
+            My professional experiences have further enriched my learning journey. As a Machine Learning/Data Analyst Intern at Solis Security, I worked on the Automatic Data Quality Improvement project. This role involved extensive research and the implementation of advanced data processing and anomaly detection techniques. By applying machine learning models such as the Local Outlier Factor (LOF) and fine-tuning hyperparameters, I significantly improved data quality and model performance. This experience highlighted the critical importance of continuous learning and adaptation in a fast-paced, technology-driven environment.
+          </p>
+    
+          <h3>Result:</h3>
+          <p>
+            The continuous learning approach I have adopted throughout my studies and professional experiences has yielded significant results. The successful completion of complex projects, high academic achievements, and impactful professional contributions all underscore the effectiveness of this approach. The skills I developed during my undergraduate studies laid a strong foundation for my postgraduate work, which in turn prepared me for the challenges of real-world applications in my professional roles.
+          </p>
+          <p>
+            For instance, the data quality improvement project at Solis Security not only enhanced my technical skills in machine learning and data analytics but also demonstrated the practical value of these skills in improving cybersecurity measures. The project outcomes, including significant reduction in data redundancy and enhanced model accuracy, directly contributed to Solis Security's operational excellence and underscored the importance of high-quality data in cybersecurity.
+          </p>
+    
+          <h3>Learning:</h3>
+          <p>
+            Reflecting on my journey, it is evident that continuous learning and skill development are not just academic pursuits but essential components of professional success. My experiences have shown that staying current with technological advancements and continually seeking to improve one's skills are vital in the ever-evolving field of IT and cybersecurity.
+          </p>
+          <p>
+            Moving forward, I am committed to furthering my knowledge in advanced machine learning techniques and data visualization tools. I plan to engage in ongoing professional development through courses, certifications, and practical projects. Additionally, I aim to enhance my leadership and project management skills, recognizing their importance in driving innovation and achieving strategic goals.
+          </p>
+          <p>
+            In conclusion, the skills and knowledge I have gained through continuous learning have been instrumental in my academic and professional achievements. This approach will remain a cornerstone of my career strategy, ensuring that I stay at the forefront of technological advancements and am well-equipped to tackle future challenges in the field of IT and cybersecurity.
+          </p>
+        </div>
       </div>
-    </section><!-- End Technical Skills Section -->
+    </section>
+    <!-- End Technical Skills Section -->
 
     <!-- ======= Ethical Conduct Section ======= -->
     <section id="ethical-conduct" class="portfolio-details box-shadow">
